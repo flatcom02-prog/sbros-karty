@@ -1,0 +1,9 @@
+node_modules
+dist
+.git
+*.md
+scripts
+.dev-sw*
+dev-dist
+.DS_Store
+*.local

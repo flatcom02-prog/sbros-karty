@@ -1,0 +1,61 @@
+.lobby {
+  min-height: 100dvh;
+  max-width: 440px;
+  margin: 0 auto;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  background:
+    radial-gradient(ellipse at 30% 0%, #3d5a40 0%, #1b4332 50%, #0b1f17 100%);
+  color: #f0f0ea;
+  box-sizing: border-box;
+}
+
+.lobby h1 {
+  margin: 0;
+  font-family: Georgia, serif;
+}
+
+.room-code {
+  font-size: 2.5rem;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  text-align: center;
+  padding: 0.75rem;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 12px;
+  font-family: ui-monospace, monospace;
+}
+
+.lobby-hint {
+  text-align: center;
+  opacity: 0.8;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.player-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.player-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.ready {
+  color: #81c784;
+}
+
+.wait {
+  color: #ffb74d;
+}
